@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f25a8305-9d8c-4c7a-872b-d493f589bed8">
+  <producedTypes>
+    <objectType typeId="72a9f497-09b1-4803-91ed-22a1b2acc305" valueTypeId="1b5afae3-8a62-468d-80ca-5acf21e673d4"/>
+    <refType typeId="a15a4524-2652-4eda-ab66-2fe335231e61" valueTypeId="4db2f29c-ec4f-4c76-aa2f-b7eb94076d33"/>
+    <selectionType typeId="2bd5d40a-7a70-4155-b09f-6b1144a4027f" valueTypeId="48b6552b-3463-4101-89e7-f44e8c482490"/>
+    <listType typeId="886a55a9-2bcc-4159-b049-752277fc8fea" valueTypeId="70f43b67-c3c4-47e6-8a3e-e65152d1bba8"/>
+    <managerType typeId="279a1be2-e4b4-4128-abea-763ef7ebcd77" valueTypeId="8306729d-f57c-4b40-b1a8-ec588adb797c"/>
+  </producedTypes>
+  <name>ДокументДляВнедренияБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документ для внедрения БСП</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ДокументДляВнедренияБСП.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
