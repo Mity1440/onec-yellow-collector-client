@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="383a8bd6-6416-4029-ac62-ad8d628bbbb7">
+  <producedTypes>
+    <objectType typeId="45afef77-176f-4912-81f9-741285515de6" valueTypeId="d898bd18-abb6-445c-a4b8-4c47bafc9d48"/>
+    <refType typeId="2369042b-1064-4be6-b803-254d25a93765" valueTypeId="257ac143-9805-4979-adc3-bf8fb165b8bb"/>
+    <selectionType typeId="d93ec8ba-929e-457a-b276-346f18e96c03" valueTypeId="2ce87453-c7d3-43ac-8332-6d45a90ac911"/>
+    <listType typeId="2d9032c3-0c45-47a1-9120-505efe4bd211" valueTypeId="ab289115-fd1c-4878-941e-24fb55cd1fc5"/>
+    <managerType typeId="4872eade-69f7-4fbd-ba53-38afc07c30b9" valueTypeId="37608748-645b-4589-bf14-0fc475b339bc"/>
+  </producedTypes>
+  <name>МаршрутыYellowCollector</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маршруты yellow collector</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МаршрутыYellowCollector.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="e2ba8ab1-8281-4d5e-be16-6861075523e9">
+      <name>Ping</name>
+      <description>Ping</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bad70540-aa66-4ab3-a2b7-6db74b5ba348">
+      <name>V1_ErrorList</name>
+      <description>V1. Список ошибок</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c36a150e-24ac-4f2c-8c13-be9ae3e148ca">
+      <name>V1_ErrorDetails</name>
+      <description>V1 error details</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e8aa8d06-2ff4-4bd2-bc67-f385e719b854">
+    <name>АдресРесурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес ресурса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

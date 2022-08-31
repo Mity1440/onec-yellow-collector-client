@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="474ffb40-6bf4-46db-b913-9bd6f794f072">
+  <name>МониторингОшибок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мониторинг ошибок</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>DataProcessor.МониторОшибок</content>
+  <content>Style.Основной</content>
+  <subsystems>Служебные</subsystems>
+  <subsystems>Ядро</subsystems>
+</mdclass:Subsystem>

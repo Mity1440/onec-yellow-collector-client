@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="083cea33-f71e-4660-9416-1d71f040d70c">
+  <producedTypes>
+    <objectType typeId="421bebf1-a1cd-4761-9fb4-039873cf5880" valueTypeId="c83e7af8-2b95-4827-a464-8aab1b0b04c4"/>
+    <managerType typeId="eaa8a825-f4bb-438b-8829-a1390334059c" valueTypeId="2fb14c42-c0a6-45f6-83ac-f15afdbca2d8"/>
+  </producedTypes>
+  <name>ЗапросникYellowCollector</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запросник yellow collector</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="03449d76-0925-451c-905e-825f29d05ff5">
+    <name>Инстанс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инстанс</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СервераYellowCollector</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e29f9237-3468-42ff-8375-dd746209e8de">
+    <name>Маршрут</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маршрут</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МаршрутыYellowCollector</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:DataProcessor>

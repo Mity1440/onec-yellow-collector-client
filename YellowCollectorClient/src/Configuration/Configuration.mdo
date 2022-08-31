@@ -20,7 +20,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Mity1440</vendor>
-  <version>1.0.1.1</version>
+  <version>2022.6.1.0</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -30,6 +30,7 @@
       <use>true</use>
     </functionality>
   </usedMobileApplicationFunctionalities>
+  <defaultStyle>Style.Основной</defaultStyle>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
@@ -45,6 +46,8 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Встраиваемые</subsystems>
+  <subsystems>Subsystem.Мониторинг</subsystems>
+  <subsystems>Subsystem.МониторингОшибок</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВычисленноеПравоДоступаЦвет</styleItems>
@@ -89,6 +92,7 @@
   <styleItems>StyleItem.ЦветФонаОтрицательногоЗначения</styleItems>
   <styleItems>StyleItem.ЦветФонаПоложительногоЗначения</styleItems>
   <styleItems>StyleItem.ЦветФонаПредупреждения</styleItems>
+  <styles>Style.Основной</styles>
   <commonPictures>CommonPicture.БыстрыеНастройкиОтчета</commonPictures>
   <commonPictures>CommonPicture.БыстрыйДоступ</commonPictures>
   <commonPictures>CommonPicture.БыстрыйДоступДобавить</commonPictures>
@@ -433,6 +437,8 @@
   <roles>Role.ЧтениеВариантовОтчетов</roles>
   <roles>Role.ЧтениеВнешнихПользователей</roles>
   <commonTemplates>CommonTemplate.ПолучениеДереваОбработчиковОбновления</commonTemplates>
+  <commonModules>CommonModule.YellowCollectorЗапросы</commonModules>
+  <commonModules>CommonModule.YellowCollectorОбщегоНазначения</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластера</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераCOM</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераCOMКлиентСервер</commonModules>
@@ -500,6 +506,7 @@
   <commonModules>CommonModule.ПользователиСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ПользователиСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ПользователиСлужебныйПовтИсп</commonModules>
+  <commonModules>CommonModule.РаботаСФормами</commonModules>
   <commonModules>CommonModule.РегламентированныеДанныеКлиентСервер</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
   <commonModules>CommonModule.СерверныеОповещения</commonModules>
@@ -606,6 +613,7 @@
   <commonCommands>CommonCommand.ВремяТекущегоСеанса</commonCommands>
   <commonCommands>CommonCommand.НастроитьПрава</commonCommands>
   <commonCommands>CommonCommand.НастройкаКолонтитулов</commonCommands>
+  <commonCommands>CommonCommand.ОткрытьМониторОшибок</commonCommands>
   <commonCommands>CommonCommand.ПанельОтчетовАдминистрирование</commonCommands>
   <commonCommands>CommonCommand.ПраваДоступа</commonCommands>
   <commonCommands>CommonCommand.ПредупрежденияПриЗавершенииРаботы</commonCommands>
@@ -688,12 +696,14 @@
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
   <catalogs>Catalog.КлючиДоступа</catalogs>
+  <catalogs>Catalog.МаршрутыYellowCollector</catalogs>
   <catalogs>Catalog.НаборыГруппДоступа</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПользовательскиеНастройкиОтчетов</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетов</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетовРасширений</catalogs>
   <catalogs>Catalog.ПрофилиГруппДоступа</catalogs>
+  <catalogs>Catalog.СервераYellowCollector</catalogs>
   <documents>Document.ДокументДляВнедренияБСП</documents>
   <enums>Enum.ВариантыПериода</enums>
   <enums>Enum.ВариантыПредставленияПериода</enums>
@@ -713,7 +723,9 @@
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УниверсальныйОтчет</reports>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
+  <dataProcessors>DataProcessor.ЗапросникYellowCollector</dataProcessors>
   <dataProcessors>DataProcessor.КонструкторФормул</dataProcessors>
+  <dataProcessors>DataProcessor.МониторОшибок</dataProcessors>
   <dataProcessors>DataProcessor.НастройкиПользователей</dataProcessors>
   <dataProcessors>DataProcessor.НерекомендуемаяВерсияПлатформы</dataProcessors>
   <dataProcessors>DataProcessor.ОписаниеОбработчиковОбновления</dataProcessors>

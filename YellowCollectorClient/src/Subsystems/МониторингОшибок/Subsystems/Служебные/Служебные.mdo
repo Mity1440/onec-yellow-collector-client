@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28bb0ad9-b694-4a62-8230-7dae18673249">
+  <name>Служебные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Служебные</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.РаботаСФормами</content>
+  <parentSubsystem>Subsystem.МониторингОшибок</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1057cdd-f16d-413c-9546-8732afab68d0">
+  <name>Мониторинг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мониторинг</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand.ОткрытьМониторОшибок</content>
+</mdclass:Subsystem>

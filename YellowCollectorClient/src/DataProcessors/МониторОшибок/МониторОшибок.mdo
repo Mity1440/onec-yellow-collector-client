@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d79f072f-f866-43e6-818c-1292beb23346">
+  <producedTypes>
+    <objectType typeId="860b9aa9-53b9-4d7b-b8d2-6fbe4107b87c" valueTypeId="da62503f-7ec9-4006-829d-767e6c23ba6e"/>
+    <managerType typeId="fec578f2-1042-4e6b-a641-f078952e94c9" valueTypeId="975e3ba7-4fc4-4ac2-99fb-bb8630243394"/>
+  </producedTypes>
+  <name>МониторОшибок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монитор ошибок</value>
+  </synonym>
+  <defaultForm>DataProcessor.МониторОшибок.Form.ВсеОшибки</defaultForm>
+  <attributes uuid="b78acf37-42ce-41d0-9d91-030436573b32">
+    <name>АдресСхемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес схемы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2c2d124b-fc39-4fe1-9f10-5ffbf7200d2c">
+    <name>АдресДанныхРасшифровки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес данных расшифровки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7cc7ed49-c935-4c15-82b8-98da86cb9a5d">
+    <name>СтруктураКолонок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Структура колонок</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2c559da5-2906-41ee-b3b5-42c5d1a690a3">
+    <name>ВсеОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Все ошибки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

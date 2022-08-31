@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bfa90b7-c655-4681-8f96-efcd620d4dc2">
+  <name>YellowCollectorОбщегоНазначения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Yellow collector общего назначения</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
