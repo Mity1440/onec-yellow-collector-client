@@ -46,6 +46,13 @@
         <value></value>
       </code>
     </items>
+    <items id="67d0c851-18b5-41f6-a82d-2033031a61f2">
+      <name>V1_ErrorListMapping</name>
+      <description>V1 error list mapping</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
   </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
