@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e45634f-9c3e-41ee-88c1-817f6535a04b">
+  <producedTypes>
+    <objectType typeId="5399f505-2616-4888-af1f-d669c9d4f5c0" valueTypeId="7f85a097-ffa7-4a4a-be67-de7223ba36e6"/>
+    <managerType typeId="6b406fe9-f5d8-4c04-9182-717181be3e20" valueTypeId="84f332cc-23d0-4f44-b51a-c35cf9581a62"/>
+  </producedTypes>
+  <name>JSONEditor</name>
+  <synonym>
+    <key>ru</key>
+    <value>JSON - редактор</value>
+  </synonym>
+  <comment>https://github.com/josdejong/jsoneditor/tree/master</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.JSONEditor.Form.Форма</defaultForm>
+  <forms uuid="dd10d3a1-9ac8-464f-9174-59dac810a7e0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="88753a9c-ebbb-42af-828b-43289d5622a5">
+    <name>Бинарник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бинарник</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Бинарник</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Бинарник</value>
+    </synonym>
+    <comment>https://github.com/josdejong/jsoneditor</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="4f9d5754-7977-4955-9de3-0d3deb97fd55">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

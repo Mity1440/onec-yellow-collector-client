@@ -722,6 +722,7 @@
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УниверсальныйОтчет</reports>
+  <dataProcessors>DataProcessor.JSONEditor</dataProcessors>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
   <dataProcessors>DataProcessor.ЗапросникYellowCollector</dataProcessors>
   <dataProcessors>DataProcessor.КонструкторФормул</dataProcessors>
