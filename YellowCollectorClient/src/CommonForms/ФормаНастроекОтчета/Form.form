@@ -298,19 +298,7 @@
           <segments>СоставГруппировки</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
-        <excludedCommands>Change</excludedCommands>
         <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>CopyToClipboard</excludedCommands>
-        <excludedCommands>EndEdit</excludedCommands>
-        <excludedCommands>HierarchicalList</excludedCommands>
-        <excludedCommands>List</excludedCommands>
-        <excludedCommands>MoveDown</excludedCommands>
-        <excludedCommands>MoveUp</excludedCommands>
-        <excludedCommands>OutputList</excludedCommands>
-        <excludedCommands>SelectAll</excludedCommands>
-        <excludedCommands>SortListAsc</excludedCommands>
-        <excludedCommands>SortListDesc</excludedCommands>
-        <excludedCommands>Tree</excludedCommands>
         <items xsi:type="form:FormGroup">
           <name>СоставГруппировкиГруппа1</name>
           <id>643</id>
@@ -1296,19 +1284,7 @@
           <segments>Отборы</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
-        <excludedCommands>Change</excludedCommands>
         <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>CopyToClipboard</excludedCommands>
-        <excludedCommands>EndEdit</excludedCommands>
-        <excludedCommands>HierarchicalList</excludedCommands>
-        <excludedCommands>List</excludedCommands>
-        <excludedCommands>MoveDown</excludedCommands>
-        <excludedCommands>MoveUp</excludedCommands>
-        <excludedCommands>OutputList</excludedCommands>
-        <excludedCommands>SelectAll</excludedCommands>
-        <excludedCommands>SortListAsc</excludedCommands>
-        <excludedCommands>SortListDesc</excludedCommands>
-        <excludedCommands>Tree</excludedCommands>
         <items xsi:type="form:FormGroup">
           <name>ГруппаОтборыПоле</name>
           <id>361</id>
@@ -3431,19 +3407,7 @@
             <segments>ВыбранныеПоля</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
-          <excludedCommands>Change</excludedCommands>
           <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>CopyToClipboard</excludedCommands>
-          <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>HierarchicalList</excludedCommands>
-          <excludedCommands>List</excludedCommands>
-          <excludedCommands>MoveDown</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
-          <excludedCommands>OutputList</excludedCommands>
-          <excludedCommands>SelectAll</excludedCommands>
-          <excludedCommands>SortListAsc</excludedCommands>
-          <excludedCommands>SortListDesc</excludedCommands>
-          <excludedCommands>Tree</excludedCommands>
           <items xsi:type="form:FormGroup">
             <name>ВыбранныеПоляГруппа1</name>
             <id>257</id>
@@ -4778,16 +4742,7 @@
               <segments>Сортировка</segments>
             </dataPath>
             <titleLocation>None</titleLocation>
-            <excludedCommands>Change</excludedCommands>
             <excludedCommands>Copy</excludedCommands>
-            <excludedCommands>CopyToClipboard</excludedCommands>
-            <excludedCommands>EndEdit</excludedCommands>
-            <excludedCommands>MoveDown</excludedCommands>
-            <excludedCommands>MoveUp</excludedCommands>
-            <excludedCommands>OutputList</excludedCommands>
-            <excludedCommands>SelectAll</excludedCommands>
-            <excludedCommands>SortListAsc</excludedCommands>
-            <excludedCommands>SortListDesc</excludedCommands>
             <items xsi:type="form:FormGroup">
               <name>СортировкаГруппа1</name>
               <id>163</id>
@@ -6144,20 +6099,7 @@
           <segments>Оформление</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
-        <excludedCommands>Change</excludedCommands>
         <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>CopyToClipboard</excludedCommands>
-        <excludedCommands>EndEdit</excludedCommands>
-        <excludedCommands>HierarchicalList</excludedCommands>
-        <excludedCommands>List</excludedCommands>
-        <excludedCommands>MoveDown</excludedCommands>
-        <excludedCommands>MoveUp</excludedCommands>
-        <excludedCommands>OutputList</excludedCommands>
-        <excludedCommands>SelectAll</excludedCommands>
-        <excludedCommands>ShowRowRearrangement</excludedCommands>
-        <excludedCommands>SortListAsc</excludedCommands>
-        <excludedCommands>SortListDesc</excludedCommands>
-        <excludedCommands>Tree</excludedCommands>
         <items xsi:type="form:FormGroup">
           <name>ЭлементОформления</name>
           <id>889</id>
@@ -7092,19 +7034,7 @@
           <segments>СтруктураВарианта</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
-        <excludedCommands>Change</excludedCommands>
         <excludedCommands>Choose</excludedCommands>
-        <excludedCommands>Copy</excludedCommands>
-        <excludedCommands>CopyToClipboard</excludedCommands>
-        <excludedCommands>EndEdit</excludedCommands>
-        <excludedCommands>HierarchicalList</excludedCommands>
-        <excludedCommands>List</excludedCommands>
-        <excludedCommands>MoveDown</excludedCommands>
-        <excludedCommands>MoveUp</excludedCommands>
-        <excludedCommands>OutputList</excludedCommands>
-        <excludedCommands>SortListAsc</excludedCommands>
-        <excludedCommands>SortListDesc</excludedCommands>
-        <excludedCommands>Tree</excludedCommands>
         <items xsi:type="form:FormGroup">
           <name>СтруктураВариантаГруппа2</name>
           <id>448</id>

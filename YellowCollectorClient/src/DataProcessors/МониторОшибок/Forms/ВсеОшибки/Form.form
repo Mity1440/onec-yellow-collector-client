@@ -83,27 +83,26 @@
         <name>ГруппаОтборы</name>
         <id>54</id>
         <items xsi:type="form:Table">
-          <name>НастройкиОтбор</name>
-          <id>56</id>
+          <name>КомпоновщикНастроекОбщийДокументПользовательскиеНастройки</name>
+          <id>144</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>КомпоновщикНастроекОбщийДокумент.Settings.Filter</segments>
+            <segments>КомпоновщикНастроекОбщийДокумент.UserSettings</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
           <autoCommandBar>
-            <name>НастройкиОтборКоманднаяПанель</name>
-            <id>57</id>
+            <name>КомпоновщикНастроекОбщийДокументПользовательскиеНастройкиКоманднаяПанель</name>
+            <id>145</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <horizontalAlign>Left</horizontalAlign>
-            <autoFill>true</autoFill>
           </autoCommandBar>
           <searchStringAddition>
             <visible>true</visible>
@@ -111,11 +110,11 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <name>НастройкиОтборСтрокаПоиска</name>
-            <id>60</id>
+            <name>КомпоновщикНастроекОбщийДокументПользовательскиеНастройкиСтрокаПоиска</name>
+            <id>148</id>
             <extendedTooltip>
-              <name>НастройкиОтборСтрокаПоискаРасширеннаяПодсказка</name>
-              <id>62</id>
+              <name>КомпоновщикНастроекОбщийДокументПользовательскиеНастройкиСтрокаПоискаРасширеннаяПодсказка</name>
+              <id>150</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -129,8 +128,8 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>НастройкиОтборСтрокаПоискаКонтекстноеМеню</name>
-              <id>61</id>
+              <name>КомпоновщикНастроекОбщийДокументПользовательскиеНастройкиСтрокаПоискаКонтекстноеМеню</name>
+              <id>149</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -148,11 +147,11 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <name>НастройкиОтборСостояниеПросмотра</name>
-            <id>66</id>
+            <name>КомпоновщикНастроекОбщийДокументПользовательскиеНастройкиСостояниеПросмотра</name>
+            <id>154</id>
             <extendedTooltip>
-              <name>НастройкиОтборСостояниеПросмотраРасширеннаяПодсказка</name>
-              <id>68</id>
+              <name>КомпоновщикНастроекОбщийДокументПользовательскиеНастройкиСостояниеПросмотраРасширеннаяПодсказка</name>
+              <id>156</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -166,8 +165,8 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>НастройкиОтборСостояниеПросмотраКонтекстноеМеню</name>
-              <id>67</id>
+              <name>КомпоновщикНастроекОбщийДокументПользовательскиеНастройкиСостояниеПросмотраКонтекстноеМеню</name>
+              <id>155</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -186,11 +185,11 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <name>НастройкиОтборУправлениеПоиском</name>
-            <id>63</id>
+            <name>КомпоновщикНастроекОбщийДокументПользовательскиеНастройкиУправлениеПоиском</name>
+            <id>151</id>
             <extendedTooltip>
-              <name>НастройкиОтборУправлениеПоискомРасширеннаяПодсказка</name>
-              <id>65</id>
+              <name>КомпоновщикНастроекОбщийДокументПользовательскиеНастройкиУправлениеПоискомРасширеннаяПодсказка</name>
+              <id>153</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -204,8 +203,8 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>НастройкиОтборУправлениеПоискомКонтекстноеМеню</name>
-              <id>64</id>
+              <name>КомпоновщикНастроекОбщийДокументПользовательскиеНастройкиУправлениеПоискомКонтекстноеМеню</name>
+              <id>152</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -219,8 +218,8 @@
             </extInfo>
           </searchControlAddition>
           <extendedTooltip>
-            <name>НастройкиОтборРасширеннаяПодсказка</name>
-            <id>59</id>
+            <name>КомпоновщикНастроекОбщийДокументПользовательскиеНастройкиРасширеннаяПодсказка</name>
+            <id>147</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -234,8 +233,8 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>НастройкиОтборКонтекстноеМеню</name>
-            <id>58</id>
+            <name>КомпоновщикНастроекОбщийДокументПользовательскиеНастройкиКонтекстноеМеню</name>
+            <id>146</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -243,7 +242,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <representation>Tree</representation>
+          <representation>HierarchicalList</representation>
           <autoFill>true</autoFill>
           <changeRowSet>true</changeRowSet>
           <changeRowOrder>true</changeRowOrder>
@@ -264,7 +263,6 @@
           <verticalStretch>true</verticalStretch>
           <fileDragMode>AsFileRef</fileDragMode>
           <viewMode>All</viewMode>
-          <settingsNamedItemDetailedRepresentation>false</settingsNamedItemDetailedRepresentation>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -693,6 +691,231 @@
       <extendedTooltip>
         <name>СтраницаДанныеОбОшибкахРасширеннаяПодсказка</name>
         <id>51</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Page</type>
+      <extInfo xsi:type="form:PageGroupExtInfo">
+        <group>Vertical</group>
+        <showTitle>true</showTitle>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>СтраницаОтборыОтчета</name>
+      <id>170</id>
+      <items xsi:type="form:Table">
+        <name>КомпоновщикНастроекОбщийДокументНастройкиОтбор</name>
+        <id>157</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>КомпоновщикНастроекОбщийДокумент.Settings.Filter</segments>
+        </dataPath>
+        <titleLocation>None</titleLocation>
+        <autoCommandBar>
+          <name>КомпоновщикНастроекОбщийДокументНастройкиОтборКоманднаяПанель</name>
+          <id>159</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <horizontalAlign>Left</horizontalAlign>
+          <autoFill>true</autoFill>
+        </autoCommandBar>
+        <searchStringAddition>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <name>КомпоновщикНастроекОбщийДокументНастройкиОтборСтрокаПоиска</name>
+          <id>161</id>
+          <extendedTooltip>
+            <name>КомпоновщикНастроекОбщийДокументНастройкиОтборСтрокаПоискаРасширеннаяПодсказка</name>
+            <id>163</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>КомпоновщикНастроекОбщийДокументНастройкиОтборСтрокаПоискаКонтекстноеМеню</name>
+            <id>162</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+          </extInfo>
+        </searchStringAddition>
+        <viewStatusAddition>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <name>КомпоновщикНастроекОбщийДокументНастройкиОтборСостояниеПросмотра</name>
+          <id>164</id>
+          <extendedTooltip>
+            <name>КомпоновщикНастроекОбщийДокументНастройкиОтборСостояниеПросмотраРасширеннаяПодсказка</name>
+            <id>166</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>КомпоновщикНастроекОбщийДокументНастройкиОтборСостояниеПросмотраКонтекстноеМеню</name>
+            <id>165</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>ViewStatusAddition</type>
+          <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+          </extInfo>
+        </viewStatusAddition>
+        <searchControlAddition>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <name>КомпоновщикНастроекОбщийДокументНастройкиОтборУправлениеПоиском</name>
+          <id>167</id>
+          <extendedTooltip>
+            <name>КомпоновщикНастроекОбщийДокументНастройкиОтборУправлениеПоискомРасширеннаяПодсказка</name>
+            <id>169</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>КомпоновщикНастроекОбщийДокументНастройкиОтборУправлениеПоискомКонтекстноеМеню</name>
+            <id>168</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>SearchControlAddition</type>
+          <extInfo xsi:type="form:SearchControlAdditionExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+          </extInfo>
+        </searchControlAddition>
+        <extendedTooltip>
+          <name>КомпоновщикНастроекОбщийДокументНастройкиОтборРасширеннаяПодсказка</name>
+          <id>160</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>КомпоновщикНастроекОбщийДокументНастройкиОтборКонтекстноеМеню</name>
+          <id>158</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <representation>Tree</representation>
+        <autoFill>true</autoFill>
+        <changeRowSet>true</changeRowSet>
+        <changeRowOrder>true</changeRowOrder>
+        <width>60</width>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <autoMaxRowsCount>true</autoMaxRowsCount>
+        <selectionMode>MultiRow</selectionMode>
+        <header>true</header>
+        <headerHeight>1</headerHeight>
+        <footerHeight>1</footerHeight>
+        <horizontalScrollBar>AutoUse</horizontalScrollBar>
+        <verticalScrollBar>AutoUse</verticalScrollBar>
+        <horizontalLines>true</horizontalLines>
+        <verticalLines>true</verticalLines>
+        <searchOnInput>Auto</searchOnInput>
+        <initialListView>Auto</initialListView>
+        <initialTreeView>ExpandAllLevels</initialTreeView>
+        <horizontalStretch>true</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
+        <enableStartDrag>true</enableStartDrag>
+        <enableDrag>true</enableDrag>
+        <fileDragMode>AsFileRef</fileDragMode>
+        <viewMode>All</viewMode>
+        <settingsNamedItemDetailedRepresentation>false</settingsNamedItemDetailedRepresentation>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Отборы</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Страница отборы отчета</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>СтраницаОтборыОтчетаРасширеннаяПодсказка</name>
+        <id>171</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
