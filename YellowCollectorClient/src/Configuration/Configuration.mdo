@@ -20,7 +20,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Mity1440</vendor>
-  <version>2022.6.1.0</version>
+  <version>2022.2</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -48,6 +48,7 @@
   <subsystems>Subsystem.Встраиваемые</subsystems>
   <subsystems>Subsystem.Мониторинг</subsystems>
   <subsystems>Subsystem.МониторингОшибок</subsystems>
+  <subsystems>Subsystem.Настройки</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВычисленноеПравоДоступаЦвет</styleItems>
