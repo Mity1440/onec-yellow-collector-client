@@ -10,7 +10,7 @@
   <name>МаршрутыYellowCollector</name>
   <synonym>
     <key>ru</key>
-    <value>Маршруты yellow collector</value>
+    <value>Маршруты (Yellow Collector)</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.МаршрутыYellowCollector.StandardAttribute.Description</inputByString>
@@ -18,6 +18,14 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Маршруты</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Маршруты</value>
+  </extendedListPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <descriptionLength>150</descriptionLength>
@@ -42,6 +50,20 @@
     <items id="c36a150e-24ac-4f2c-8c13-be9ae3e148ca">
       <name>V1_ErrorDetails</name>
       <description>V1 error details</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="67d0c851-18b5-41f6-a82d-2033031a61f2">
+      <name>V1_ErrorListMapping</name>
+      <description>V1 error list mapping</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="8e4820c9-aff2-4b0e-b063-76307bf3da51">
+      <name>V2_ErrorMarkedForDeletion</name>
+      <description>V2 error marked for deletion</description>
       <code xsi:type="core:StringValue">
         <value></value>
       </code>
