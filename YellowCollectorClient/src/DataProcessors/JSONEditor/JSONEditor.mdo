@@ -24,15 +24,15 @@
   <templates uuid="88753a9c-ebbb-42af-828b-43289d5622a5">
     <name>Бинарник</name>
     <synonym>
-      <key>ru</key>
-      <value>Бинарник</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Бинарник</value>
     </synonym>
     <synonym>
       <key>uk</key>
+      <value>Бинарник</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
       <value>Бинарник</value>
     </synonym>
     <comment>https://github.com/josdejong/jsoneditor</comment>
