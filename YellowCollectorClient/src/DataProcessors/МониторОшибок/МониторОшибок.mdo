@@ -46,6 +46,32 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="621e8536-a6dc-4d98-b0d1-1a3d7f2d1f84">
+    <name>АдресСхемыСтатистикаПоВсемОшибкам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес схемы статистика по всем ошибкам</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1c56af3a-8f6e-4b64-994a-a16cdb62c9d1">
+    <name>АдресДанныхРасшифровкиСтатистикаПоВсемОшибкам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес данных расшифровки статистика по всем ошибкам</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <forms uuid="2c559da5-2906-41ee-b3b5-42c5d1a690a3">
     <name>ВсеОшибки</name>
     <synonym>

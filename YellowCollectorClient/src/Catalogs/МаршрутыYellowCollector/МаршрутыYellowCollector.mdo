@@ -40,9 +40,16 @@
         <value></value>
       </code>
     </items>
-    <items id="bad70540-aa66-4ab3-a2b7-6db74b5ba348">
-      <name>V1_ErrorList</name>
-      <description>V1. Список ошибок</description>
+    <items id="4bfa1574-1472-42d9-97f4-f296f52f7e70">
+      <name>V1_BaseAggregation</name>
+      <description>V1 base aggregation</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a935bfb3-627c-4d10-8365-a27094c5eece">
+      <name>V1_BaseAggregationMapping</name>
+      <description>V1 base aggregation mapping</description>
       <code xsi:type="core:StringValue">
         <value></value>
       </code>
@@ -57,6 +64,13 @@
     <items id="67d0c851-18b5-41f6-a82d-2033031a61f2">
       <name>V1_ErrorListMapping</name>
       <description>V1 error list mapping</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="bad70540-aa66-4ab3-a2b7-6db74b5ba348">
+      <name>V1_ErrorList</name>
+      <description>V1. Список ошибок</description>
       <code xsi:type="core:StringValue">
         <value></value>
       </code>
